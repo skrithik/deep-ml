@@ -10,6 +10,6 @@ def gini_impurity(y: torch.Tensor) -> float:
     if len(y)==0:
         return 0.0
     unique,counts=torch.unique(y,return_counts=True)
-    p=torch.sum((counts/len(y))**2)
-    return (1-p).item()
+    p=torch.sum((counts.float()/len(y))**2)
+    return round((1-p).item(),3)
 
