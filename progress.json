@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T14:24:54.687Z",
+  "generated_at": "2026-11-22T14:26:12.067Z",
   "items": {
     "problem:30": {
       "kind": "problem",
@@ -127,9 +127,9 @@
       "url": "https://www.deep-ml.com/problems/46",
       "path": "problems/0046-implement-precision-metric",
       "first_solved_at": "2026-11-22T14:24:54.429Z",
-      "last_pushed_at": "2026-11-22T14:24:54.429Z",
+      "last_pushed_at": "2026-11-22T14:26:11.876Z",
       "language": "python",
-      "lines": 10
+      "lines": 23
     }
   }
 }
